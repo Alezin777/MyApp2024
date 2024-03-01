@@ -13,15 +13,27 @@
         android:scaleType="centerCrop"
         android:src="@drawable/fitaksete" />
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="User" />
+        android:text="Email:" />
+
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password" />
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLength="12"/>
 
     <Button
         android:layout_width="match_parent"
